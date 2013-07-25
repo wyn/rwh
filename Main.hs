@@ -2,4 +2,4 @@ module Main (main) where
 
 import SimpleJSON
 
-main = print (JObject [("foo", JNumber 1), ("bar", JBool False), ("baz", JString "hello")])
+main = print (JObject [("foo", JNumber 1), ("bar", JBool False), ("blop", JString "hello from blop")])
