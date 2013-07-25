@@ -1,0 +1,17 @@
+extensions: {}
+cabal-file: project.cabal
+version: 1
+module-template: ! 'module MODULE_NAME where
+
+'
+modules:
+  PutJSON:
+    filename: PutJSON.hs
+  Prettify:
+    filename: Prettify.hs
+  PrettyJSON:
+    filename: PrettyJSON.hs
+  SimpleJSON:
+    filename: SimpleJSON.hs
+  Main(Main.hs):
+    filename: Main.hs
